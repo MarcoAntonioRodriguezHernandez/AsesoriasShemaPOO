@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(182, 158, 252);
+    background-image: url("https://i.ytimg.com/vi/3YOpCMo3Xyc/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+
+}
+
+.mascotas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botones:hover{
+    cursor: pointer;
+}
+.botones{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-radius: 2rem;
+    width: 4rem;
+    padding: .5rem;
+}
+
+.info:hover{
+    cursor: pointer;
+}
+
+.mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 20rem;
+    background-color: rgb(243, 243, 243);
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+}
+
+.mascota img {
+    width: 10rem;
+    border-radius: 10%;
+}
